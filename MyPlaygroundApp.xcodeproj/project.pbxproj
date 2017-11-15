@@ -12,6 +12,7 @@
 		F49066A51FBC6BA400510175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49066A31FBC6BA400510175 /* Main.storyboard */; };
 		F49066A71FBC6BA400510175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49066A61FBC6BA400510175 /* Assets.xcassets */; };
 		F49066AA1FBC6BA400510175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49066A81FBC6BA400510175 /* LaunchScreen.storyboard */; };
+		F49066BA1FBC6C7F00510175 /* Playgrnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49066B91FBC6C7F00510175 /* Playgrnd.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,14 +23,15 @@
 		F49066A61FBC6BA400510175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49066A91FBC6BA400510175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49066AB1FBC6BA500510175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F49066B11FBC6BBD00510175 /* TestMyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = TestMyPlayground.playground; path = ../../TestMyPlayground.playground; sourceTree = "<group>"; };
-		F49066B21FBC6BBF00510175 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../MyPlayground.playground; sourceTree = "<group>"; };
-		F49066B31FBC6BC000510175 /* TuplesMyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = TuplesMyPlayground.playground; path = ../../TuplesMyPlayground.playground; sourceTree = "<group>"; };
-		F49066B41FBC6BC100510175 /* ClosurePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ClosurePlayground.playground; path = ../../ClosurePlayground.playground; sourceTree = "<group>"; };
-		F49066B51FBC6BC100510175 /* MM_MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MM_MyPlayground.playground; path = ../../MM_MyPlayground.playground; sourceTree = "<group>"; };
-		F49066B61FBC6BC100510175 /* OptinalsPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = OptinalsPlayground.playground; path = ../../OptinalsPlayground.playground; sourceTree = "<group>"; };
-		F49066B71FBC6BC200510175 /* StructurePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = StructurePlayground.playground; path = ../../StructurePlayground.playground; sourceTree = "<group>"; };
-		F49066B81FBC6BC200510175 /* ErrorHandlingMyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ErrorHandlingMyPlayground.playground; path = ../../ErrorHandlingMyPlayground.playground; sourceTree = "<group>"; };
+		F49066B11FBC6BBD00510175 /* TestMyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = TestMyPlayground.playground; path = ../../TestMyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F49066B21FBC6BBF00510175 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F49066B31FBC6BC000510175 /* TuplesMyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = TuplesMyPlayground.playground; path = ../../TuplesMyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F49066B41FBC6BC100510175 /* ClosurePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ClosurePlayground.playground; path = ../../ClosurePlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F49066B51FBC6BC100510175 /* MM_MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MM_MyPlayground.playground; path = ../../MM_MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F49066B61FBC6BC100510175 /* OptinalsPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = OptinalsPlayground.playground; path = ../../OptinalsPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F49066B71FBC6BC200510175 /* StructurePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = StructurePlayground.playground; path = ../../StructurePlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F49066B81FBC6BC200510175 /* ErrorHandlingMyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ErrorHandlingMyPlayground.playground; path = ../../ErrorHandlingMyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F49066B91FBC6C7F00510175 /* Playgrnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playgrnd.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				F49066A61FBC6BA400510175 /* Assets.xcassets */,
 				F49066A81FBC6BA400510175 /* LaunchScreen.storyboard */,
 				F49066AB1FBC6BA500510175 /* Info.plist */,
+				F49066B91FBC6C7F00510175 /* Playgrnd.swift */,
 			);
 			path = MyPlaygroundApp;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				F49066A21FBC6BA400510175 /* ViewController.swift in Sources */,
 				F49066A01FBC6BA400510175 /* AppDelegate.swift in Sources */,
+				F49066BA1FBC6C7F00510175 /* Playgrnd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
